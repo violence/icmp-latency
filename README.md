@@ -16,9 +16,12 @@ ping.exe <IP> [-c <count>] [-i <interval_ms>] [-w <timeout_ms>]
 
 ### Optional Flags
 
-- `-c <count>` – Number of ping requests to send. Default: `1`.
-- `-i <interval_ms>` – Interval between pings in milliseconds. Default: `1000`.
-- `-w <timeout_ms>` – Timeout for each ping in milliseconds. Default: `5000`.
+- `-c <count>` – Amount of ping requests to send.
+  * **Default:** `1`
+- `-i <interval_ms>` – Interval between pings in milliseconds.
+  * **Default:** `1000`
+- `-w <timeout_ms>` – Timeout for each ping in milliseconds.
+  * **Default:** `5000`
 
 ---
 
